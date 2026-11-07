@@ -21,3 +21,11 @@ The OAuth client ID is public, not a secret. Never paste a client secret or Goog
 - Calendar file import supports simple VEVENT records; recurrence expansion and timezone rules are not fully supported. Prefer live Google Calendar connection for recurring work shifts.
 - Work shifts Tue–Sat 2:30–11 pm are displayed as a reference, not generated calendar events. Import your actual work calendar for exceptions.
 - No push notifications or background Google Calendar sync yet.
+
+
+## Version 3: wellbeing and cycle planning
+- On Today, choose one of five faces. This suggests a capacity level; manual capacity selection overrides it.
+- The Review flexible tasks button asks before moving unfinished project tasks to the unscheduled inbox. It does not alter calendar events or household essentials.
+- In Settings, optionally enable menstrual-cycle tracking and log period start dates. Estimates are approximate and should not be used for contraception or medical diagnosis.
+- Wellbeing and cycle entries are stored in the current browser only, included in JSON exports, and are **not encrypted**. Do not share backups publicly. The public GitHub repository holds app code, not your browser entries.
+- This version does not automatically reschedule calendar events.
